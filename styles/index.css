@@ -1,0 +1,30 @@
+.news-container {
+    margin-top: 10px;
+
+}
+.news {
+    border: 1px solid #005EB8;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.news-left > .img-left-cont {
+    position: relative;
+    float: left;
+
+}
+
+.img-left {
+    margin: 10px 10px 10px 10px;
+    height: 150px;
+}
+.news-right > .img-right-cont {
+    position: relative;
+    float: right;
+
+}
+
+.img-right {
+    margin: 10px 10px 10px 10px;
+    height: 150px;
+}
