@@ -1,77 +1,42 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>SarajevoDanas</title>
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Brojimo i mi!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
-        <link rel="shortcut icon" type="image/png" href="./../images/favicon.png"/>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
-        <link rel="stylesheet" type="text/css" href="./../styles/index.css">
-        <link rel="stylesheet" type="text/css" href="./../styles/header.css">
-        <link rel="stylesheet" type="text/css" href="./../styles/news.css">
-        <link rel="stylesheet" type="text/css" href="./../styles/logo-scaled.css">
+  
+</head>
 
-        <script src="./../scripts/index.js"></script>
-        <script src="./../scripts/news.js"></script>
-        <script src="./../scripts/date.js"></script>
-        <script src="./../data/news_data.js"></script>
-    </head>
+<body>
+  <div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div id="main">
+<div class="content">
+<div class="text">
+<h2><a href=https://www.oslobodjenje.ba/vijesti/sarajevo/uprava-vik-a-premijer-konakovic-iznosi-pausalne-i-zlonamjerne-informacije">"Danas zadovoljno mogu reći da mi brojimo dane kada ćemo doći do stabilizacije vodosnabdijevanja"</a> - Nezir Hadzic</h2>
+</div> <!-- /.Text Div -->
+<div class="counter">
+<h3>Od izjave prošlo:</h3>
+<div id="countdown">
+  
+</div><!-- /#Countdown Div -->
+</div> <!-- /.Counter Div -->
+</div> <!-- /.Content Div -->
+</div> <!-- /#Main Div -->
+</div> <!-- /.Columns Div -->
+</div> <!-- /.Row Div -->
+</div> <!-- /.Container Div -->
+  
+    <script src="js/index.js"></script>
 
-    <body>
-        <table class="index-header" id="header">
-            <tr>
-                <td>
-                    <h1>SarajevoDanas - saznaj šta se dešava u tvom gradu!</h1>
-                </td>
-                <td id="logo-cell">
-                    <div class="logo-scaled-wrapper" id="index-logo">
-                        <div class="logo-scaled-line-top"></div>
-                        <div class="logo-scaled-base"></div>
-                        <div class="logo-scaled-line-bot"></div>
-                        <div class="logo-scaled-line-behind"></div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div class="navbar" id="index-navbar">
-    <!--            <div class="logo"></div> -->
-            <table>
-                <tr>
-                    <td class="active">Naslovnica</td>
-                    <td>
-                        <a href="./../pages/stat.html">
-                            Statistika
-                        </a>
-                    </td>
-                    <td> <a href="./../pages/about.html">
-                            O nama
-                        </a>
-                    </td>
-                    <td>
-                        <a href="./../pages/contact.html">
-                            Kontakt
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            Prikaži
-            <select id="news_filter" onchange="filter_news(this)">
-                <option value="all">sve novosti</option>
-                <option value="day">današnje novosti</option>
-                <option value="week">novosti ove sedmice</option>
-                <option value="month">novosti ovog mjeseca</option>
-            </select>
-            <intp
-        </div>
-        <div class="news-container">
-            <div class="news-row">
-                <div id="news-test"></div>
-                <div id="news-r"></div>
-            </div>
-            <div id="news-lf"></div>
-            <div id="news-rf"></div>
-        </div>
-    </body>
+</body>
 </html>

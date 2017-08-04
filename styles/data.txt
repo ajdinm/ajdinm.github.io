@@ -1,4 +1,0 @@
-amadeus blue #005EB8
-amadeus cherry #CE0058
-amadeus lb #00A9E0
-amadeus grey #7047
